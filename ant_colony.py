@@ -9,8 +9,8 @@ class ant_colony:
         self.cor_point = cor_point
         self.alpha = alpha
         self.beta = beta
-        self.e = e
-        self.num_ant = num_ant
+        self.e = e                                              #volatilization rate
+        self.num_ant = num_ant                                  #number of ants each turn
         self.iteration = iteration
 
         
